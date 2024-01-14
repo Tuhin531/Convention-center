@@ -1,0 +1,10 @@
+#navbarText ul li{
+    display: flex;
+ 
+ align-items: flex-end;
+ 
+ background-color: aqua;
+}
+.navbar-nav{
+    justify-content: center;
+}
