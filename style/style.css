@@ -71,3 +71,87 @@ body{
 
    
 }
+/* Album section */
+
+.album-details{
+    display: flex;
+    padding-top: 60px;
+    align-items: center;
+    gap:50px;
+
+
+}
+.album-details img{
+    width: 100%;
+}
+.album-detail .title{
+    color: #0A0826;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    
+}
+
+.title-description{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    width: 501px;
+    height: 88px;
+}
+.album-detail{ 
+    position: relative;
+
+}
+.album-detail  .btn-primary{
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 0px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+.discount{
+    display: flex;
+    align-items: center;
+    width: 263px;
+    height: 42px;
+    border-radius: 1px;
+    background: #FFF;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.15);
+    right:100px;
+    position: relative;
+
+
+}
+.discount hr{
+    width: 8px;
+    height: 42px;
+    border-radius: 1px;
+    background: blue;
+    
+}
+.offer{
+    color: #505050;
+
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 171.429% */
+ padding-top: 15px;
+ padding-left: 5px;
+
+}
+.discount .fa-xmark{
+  margin-right: 10px;
+    
+}
+.discount .fa-gift{
+     color: #007CFFA1;
+    
+}
