@@ -330,7 +330,47 @@ flex-shrink: 0;
 .question-slide{
     width: 100%;
 
+}
+/* footer section */
+.footer-section{
+   background-color:  #0B0D17;
+}
+
+.footer-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 50px;
+}
+.icon-header{
+    width: 160px;
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-feature-settings: 'liga' off;
+    /* Subtitle / Subtitle 2 */
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
 
 }
+.icon-photo img{
+    width: 135px;
+    height: 40px;
+    margin-top: 10px;
+
+}
+.footer-info{
+color: var(--Text-Gray-300, #D9DBE1);
+font-feature-settings: 'liga' off;
+/* Body / Body 2 */
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+
+}
+
 
 
